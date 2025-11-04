@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time table</title>
+    <style>
+     td{
+            text-align: center;
+        }
+        .math{
+            background-color: rgb(225, 145, 25);
+        }
+        .ece{
+            background-color: rgb(15, 126, 216);
+        }
+        .me{
+            background-color: rgb(40, 146, 40);
+        }
+        .dt{
+            background-color: yellow;
+        }
+        .ss{
+            background-color: aquamarine;
+        }
+        .wd{
+            background-color: rgb(162, 160, 160);
+        }
+        .ds{
+            background-color: bisque;
+        }
+        #data{
+            text-align: left;
+            font-weight: bold;
+            width: 500px;
+        }
+        #data2{
+            text-align: right;
+            font-weight: bold;
+        }
+        </style>
+</head>
+<body> 
+    <img src="https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/dmzf8yle9vzdqyo2emwt?ik-sanitizeSvg=true" width="50px">
+    <table style="border:solid black;margin:0%;" border="1" cellspacing="0"
+      cellpadding="10">
+        <caption>
+            <b>ABES Engineering College,Ghaziabad <br>Time Table <br><br>Deaprtment:Humanities and Applied Science</b></caption>
+        <caption id="data">Course:B.Tech<br>Semester/Section- I/CSE23 <br>Class Room NO. RJ-101,RJ-102,RJ-103,RJ-203,RJ-204,RJ-305,BH-309</caption>
+        <caption id="data2">w.e.f: 27.10.2025<br>Session 2025-2026, Odd Semester</caption>
+        <tr>
+        <th rowspan="2">Time &rarr;<br>Day &darr;</th>
+        <th>I</th>
+        <th>II</th>
+        <th>III</th>
+        <th>IV</th>
+        <th>V</th>
+        <th>VI</th>
+        <th>VII</th>
+        <th>VIII</th>
+        <th>IX</th>
+       </tr>
+        <tr>
+            <th>08:50-09:40</th>
+            <th>09:40-10:30</th>
+            <th>10:40-11:30</th>
+            <th>11:30-12:20</th>
+            <th>12:20-01:10</th>
+            <th>01:10-2:00</th>
+            <th>02:00-02:50</th>
+            <th>02:50-03:40</th>
+            <th>03:40-04:30</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td class="ece">25EC101<br>(SA)<br>RJ-102</td>
+            <td class="ss">25HU101<br>(SSG)<br>RJ-102</td>
+            <td class="me">25ME101<br>(MYK)<br>RJ-102</td>
+            <td class="math">25AS102<br>(ABL)<br>RJ-102</td>
+            <td class="dt">25HU102<br>(VM)<br>RJ-102</td>
+            <td rowspan="5">LUNCH</td>
+            <td class="math">25AS102<br>(ABL)<br>RJ-204</td>
+            <TD colspan="2" class="ece">25EC151<br>(SA)<br>BH-115</TD>
+        </tr>
+        <tr> <td>Tuesday</td>
+            <td colspan="2" class="wd">25VA151<br>(SSI)<br>BH-309</td>
+            <td class="ds">25CS101<br>(KAS)<br>RJ-102</td>
+            <td class="ds">25CS101<br>(KAS)<br>RJ-102</td>
+            <td class="ece">25EC102<br>(SA)<br>RJ-102</td>
+            <!--<td>25HU101<br>(VM)<br>RJ-102</td>-->
+            <!--<td rowspan="5">LUNCH</td>-->
+            <td class="me">25ME101<br>(MYK)<br>RJ-103</td>
+            <TD class="ss">25HU101<br>(SSG)<br>RJ-103</TD>
+            <td class="math">25AS102<br>(ABL)<br>RJ-103</td>
+        </tr>
+           
+        <tr> <td>Wednesday</td>
+            <td class="dt">25HU102<br>(VM)<br>RJ-103</td>
+            <td class="me">25ME101<br>(MYK)<br>RJ-103</td>
+            <td class="math">25AS102<br>(ABL)<br>RJ-103</td>
+            <td class="ece">25EC101<br>(SA)<br>RJ-103</td>
+            <td class="ss">25HU101<br>(SSG)<br>RJ-103</td>
+           <!--<td rowspan="5">LUNCH</td>-->
+            <td colspan="2" class="ds">25CS151<br>(KAS)<br>RJ-203</td>
+            <!--<TD>25EC151<br>(SA)<br>BH-115</TD>-->
+        </tr>
+        <tr> <td>Thursday</td>
+            <td class="ds">25CS101<br>(KAS)<br>RJ-103</td>
+            <td class="ds">25CS101<br>(KAS)<br>RJ-103</td>
+            <td class="me">25ME101<br>(MYK)<br>RJ-103</td>
+            <td class="ece">25EC101<br>(SA)<br>RJ-103</td>
+            <td class="math">25AS102<br>(ABL)<br>RJ-103</td>
+            <!--<td rowspan="5">LUNCH</td>-->
+            <td>Mentor mentee<br>(SA,AKS)<br>RJ-305</td>
+            <TD colspan="2" class="ss">25HU151<br>(SSG,KG)<br>KC-510</TD>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td class="me">25ME101<br>(MYK)<br>RJ-102</td>
+            <td class="math">25AS102<br>(ABL)<br>RJ-102</td>
+            <td colspan="2" class="me">25ME151<br>(MYK,DRK)<br>VishwaKarma block Ground Floor</td>
+            <td class="math">25AS102<br>(ABL)<br>RJ-103</td>
+            <!--<td rowspan="5">LUNCH</td>-->
+            <td class="wd">25VA151<br>(SSI)<br>RJ-103</td>
+            <td class="ece">25EC101<br>(SA)<br>RJ-103</td>
+            <TD class="dt">25HU101<br>(VM)<br>RJ-103</TD>
+        </tr>
+    </table>
+    <table style="border:solid black;margin:1%;" border="1" cellspacing="0"
+      cellpadding="4">
+        <tr>
+            <th>SUBCODE</th>
+            <th>SUBNAME</th>
+            <th>FACULTY</th>
+            <th>LABCODE</th>
+            <th>LAB NAME</th>
+            <th>FACULTY</th>
+        </tr>
+        <tr>
+            <td>25ME101</td>
+            <td>Basics of mechanical & Automation Engg.</td>
+            <td>Mr.Mayank Kushwaha</td>
+            <td>25CS151</td>
+            <td>Data Structure Lab</td>
+            <td>Mr. Karan Siwach</td>
+        </tr>
+        <tr>
+            <td>25EC101</td>
+            <td>Basic of Electronics Engg.</td>
+            <td>Mr. Sahbaz Alam</td>
+            <td>25HU151</td>
+            <td>Professional Communication Lab</td>
+            <td>Dr.Shruti Singh<br>Ms.Khushi Goel</td>
+        </tr>
+        <tr>
+            <td>25AS102</td>
+            <td>Fundamentals of Linear Algebra and Statistics</td>
+            <td>Dr.Arti Bansal</td>
+            <td>25EC151</td>
+            <td>Basics Electronics Engg. Lab</td>
+            <td>Mr. Sahbaz Alam<br>Dr. Ritu Agrawal</td>
+        </tr>
+        <tr>
+            <td>25CS101</td>
+            <td>Data Structure</td>
+            <td>Mr. Karan Siwach</td>
+            <td>25ME151</td>
+            <td>Digital Manufacturing Lab</td>
+            <td>Mr.Mayank kushwaha<br>Dr. Raushan Kumar</td>
+        </tr>
+        <tr>
+            <td>25HU101</td>
+            <td>Soft Skills</td>
+            <td>Dr. Shruti Singh</td>
+            <td>25VA151</td>
+            <td>web Designing Lab</td>
+            <td>mr. sanjeev Soni</td>
+        </tr>
+        <tr>
+            <td>25HU102</td>
+            <td>Design Thinking</td>
+            <td>Dr. Varun Mohan</td>
+            <td></td>
+            <td>Mentor Mentee</td>
+            <td>Mr. Sahbaz Alam<br>Mr.Karan Siwach</td>
+        </tr>
+         
+    </table>
+   <h5 style="margin: 0%;"><b>Acedemic Program Coordinator : Dr.Shweta Choudhary<br>Class Mentor-1: Mr. Shahbaz Alam<br>Class Mentor-2: Mr. Karan Siwach</b></h5>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector2</title>
+     <style>
+        /*body{
+            color: aqua;
+        }*/
+        /*.box{
+            color: blue;
+        }*/
+       /* div p{
+            color: brown;
+        }*/
+        /*
+        .box >p {
+background-color: blue;
+        }*/
+        /*div ~p{
+            color: blueviolet;
+        }*/
+        a:hover{
+            color: red;
+        }
+        a:active{
+            color:chartreuse
+        }
+        a:link{
+            text-decoration: none;font-size: 25px;
+        }
+        ul{
+            list-style: none; display: flex;
+        }
+        ul li{
+            margin: 20px; border-right:1px solid #999 ;
+            padding-right: 20px;
+        }
+        ul li:hover{
+            color: brown;
+        }
+        ul li:nth-child(5){
+          border-right: none;
+        }
+        .para{
+            color: blue;
+        }
+        .para::first-letter{
+           color: rgb(207, 27, 63); font-size: large;
+        }
+        .para::first-line{
+            background-color: aquamarine;
+        }
+        .para::after{
+            content: "Read more";
+            color: maroon;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- CSS Combinators-->
+   <div class="box">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aperiam, hic exercitationem placeat at reprehenderit quisquam molestiae aliquid ab similique ullam iste veniam culpa quidem omnis magnam! In, maxime aspernatur?
+    </p>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae tempora neque provident laborum ipsum in labore enim nostrum minima dolorem ex doloremque officia dolor perferendis, unde maxime omnis earum aliquid.</p>
+    </div>
+   </div>
+   <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit praesentium nemo beatae commodi laudantium rem, eveniet vero, voluptatem ab similique sed debitis officiis, cum distinctio expedita eligendi omnis perspiciatis voluptas!
+   </p>
+   <!--css pseudo classes-->
+   <a href="">visit the site</a>
+<ul>
+    <li>home</li>
+    <li>services</li>
+    <li>about</li>
+    <li>gallery</li>
+    <li>contact</li>
+</ul>
+<!--CSS Pseudo element:style a specific part-->
+<p class="para">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum quidem eveniet harum odit voluptatum, quaerat id doloribus minima numquam doloremque distinctio, libero hic? Corporis voluptas quia, saepe at dolor blanditiis?
+</p>
+</body>
+</html>
