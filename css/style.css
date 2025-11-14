@@ -1,0 +1,28 @@
+body{
+    background-color:white;
+    margin: 0;
+    padding: 0;
+    background-image:url('car.jpg') ;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;    
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90px;
+    color: rgb(55, 233, 162);
+    font-weight: 750px;
+  font-style:italic ;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+
+}
+#para{
+    color: blue;
+    display:inline;
+}
+img{
+    width: 500px;
+    float:inline-start;
+}

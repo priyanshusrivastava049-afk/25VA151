@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model 3</title>
+    <style>
+        header{
+            height: 50px;
+            background-color: black;
+            color: white;
+            padding: 5px;
+        }
+        .contentbox{
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+        display: inline-block;
+        }
+        a{
+            margin-right: 150px;
+        }
+        footer{
+            text-align: center;
+            margin: auto;
+            background-color: black;
+            color: white;
+        }
+        #content{
+            height: 470px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a style="color: rgb(225, 175, 13);">Amazon.in</a>
+        <a>Account</a>
+        <a>My Cart</a>
+        <a>Contact</a>
+        <input type="text" placeholder="Amazon.in" ">
+        <button style="background-color: rgb(225, 175, 13);">Search</button>
+    </header>
+    <div id="content">
+        <div class="contentbox" style="background-color: red;"></div>
+        <div class="contentbox" style="background-color: yellow;"></div>
+        <div class="contentbox" style="background-color: aquamarine;"></div>
+    </div>
+    <footer>Made by &hearts; by Amazon<br>
+    &#169; 2025 Amazon
+    </footer>
+</body>
+</html>
