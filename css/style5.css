@@ -1,0 +1,74 @@
+*{
+    width: 900px;
+}
+body{
+    border: solid black 2px;
+}
+#header{
+    width: 896px;
+    height: 50px;
+    background-color: rgb(241, 207, 213);
+    border: solid 2px palevioletred;
+    text-align: center;
+    font-size: larger;
+}
+#navbar{
+    width: 896px;
+    height: 50px;
+    background-color: rgb(241, 207, 213);
+    border: solid 2px palevioletred;
+    text-align: center;
+    font-size: larger;
+}
+.content{
+    display: flex;
+    box-sizing: border-box;
+    width: 900px;
+    height: 400px;
+    background-color: rgb(241, 207, 213);
+    border: solid palevioletred 2px;
+}
+#left{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height:395px;
+    background-color: rgb(241, 207, 213);
+    border: solid palevioletred 2px;
+}
+#section{
+    display: flex;
+    flex-direction: column;
+    height: 295px;
+    width: 596px;
+    border: solid palevioletred 2px;
+    text-align: center;
+    font-size: larger;
+}
+#article{
+    display: flex;
+    flex-direction: column;
+    border: solid palevioletred 2px;
+    height: 290px;
+    width: 596px;
+    text-align: center;
+    font-size: larger;
+}
+#right{
+    display: flex;
+     flex-direction: row;
+    width: 300px;
+    height: 395px;
+    background-color: rgb(241, 207, 213);
+    border: solid palevioletred 2px;
+    text-align:center;
+    font-size: larger;
+}
+#footer{
+    width: 896px;
+    background-color: rgb(241, 207, 213);
+    border: solid palevioletred 2px;
+    height: 50px;
+    text-align: center;
+    font-size: larger;
+}
