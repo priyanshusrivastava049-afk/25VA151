@@ -1,0 +1,14 @@
+nav{
+    background-color: black;
+    color: wheat;
+    height: 60px;
+    padding: 5px;
+    width: 100%;
+}
+ul li{
+    display: inline;
+    margin: 50px;
+}
+a{
+    color: wheat;
+}
