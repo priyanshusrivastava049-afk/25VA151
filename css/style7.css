@@ -1,5 +1,5 @@
 *{
-    width: 670px;
+    width: 700px;
 }
 body{
     font-size: larger;
@@ -8,12 +8,13 @@ body{
 }
 #MAIN{
     background-color: green;
+    /* padding-left: 60px; */
 }
 #header{
     width: 600px;
     height: 70px;
     background-color: rgb(119, 235, 119);
-    margin: 5px;
+    margin-left: 5px;
     padding: 5px;
 }
 #nav{
@@ -74,6 +75,6 @@ body{
      width: 600px;
     height: 70px;
     background-color: rgb(119, 235, 119);
-    margin: 5px;
+    margin-left: 5px;
     padding: 5px;
 }

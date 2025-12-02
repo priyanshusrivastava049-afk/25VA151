@@ -13,6 +13,7 @@ ul li{
 #image{
   padding-top: 20px;
     padding-right: 150px;
+    
 }
 
 img{
@@ -28,12 +29,15 @@ a{
 a:hover{
     text-decoration-line:underline;
     color: wheat;
+    zoom: 1.1;
+    
 }
 #msg{
-    font-size: 25px;
+    font-size: 30px;
     color: brown;
     font-family: cursive;
     text-align: center;
+    
 }
 .glance{
     box-sizing: border-box;
@@ -56,4 +60,348 @@ a:hover{
     width: 50%;
     font-size: x-large;
     text-align: center;
+}
+table{
+    width: 100%;
+    padding: 50px;
+}
+.tb1{
+     height: 180px;
+    font-size: x-large;
+    padding-left: 150px;
+    
+}
+#ug1{
+    height: 100px;
+    font-size: x-large;
+    font-family: cursive;
+}
+span{
+    color: maroon;
+    font-size: xx-large;
+}
+.about{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 920px;
+    background-color: black;
+}
+#about1{
+    color: white;
+    font-size: 40px;
+    font-family: cursive;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+hr{
+    height: 4px;
+    background-color: grey;
+    width: 1300px;
+}
+#aboutcontent{
+     box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 150px;
+}
+#leftcontent{
+    width: 700px;
+    height: 800px;
+    font-size:28px;
+    color: white;
+    line-height: 40px;
+
+}
+#aboutimg{
+    padding-left: 150px;
+    padding-top: 50px;
+}
+#affi{
+    width: 100%;
+    height: 100px;
+    font-size: 55px;
+    font-family: cursive;
+   padding-left: 150px;
+ 
+}
+.affiimg1{
+     box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    padding-left: 300px;
+    padding-top: 5px;
+    height: 320px;
+    width: 100%;
+}
+#aktu{
+    margin-right: 60px;
+    width: 300px;
+    height: 300px;
+}
+.coures{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1200px;
+    background-color: black;
+}
+
+#courseoff{
+    height: 200px;
+    background-color: rgb(19, 19, 19);
+    font-size:45px;
+    font-family: cursive;
+    color: white;
+    padding-left: 150px;
+    margin: 0px;
+    margin-top: 50px;
+    padding-top: 70px;
+    
+}
+
+#ug{
+     
+    background-color: rgb(19, 19, 19);
+    font-size:40px;
+    font-family: cursive;
+    color: white;
+    padding-left: 150px;
+    margin: 0px;
+}
+
+#ugpg{
+    background-color: rgb(19, 19, 19);
+    color: white;
+    padding-left: 150px;
+}
+#name{
+    background-color: antiquewhite;
+}
+#explore{
+    /* width: 100%; */
+    height: 100px;
+    padding-left: 150px;
+    font-size: 40px;
+    font-family: cursive;
+    padding-top: 50px;
+}
+.expimg{
+     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+#expimgtop{
+   box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    height:400px;
+    width: 950px;
+    padding-left: 150px;
+}
+#exploreimage{
+    margin-right: 150px;  
+    width: 295px;
+    height: 430px;
+}
+.expimg img:hover{
+    zoom: 1.1;
+}
+.palcement{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+#achive{
+    font-size: 50px;
+    font-family: cursive;
+    height: 150px;
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+    padding-left: 100px;
+    margin-top: 80px;
+}
+#achive1{
+    padding-left: 300px;
+    background-color: black;
+
+}
+#achive2{
+    padding-left: 540px;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+#recuit{
+    font-size: 50px;
+    font-family: cursive;
+    height: 100px;
+    padding-left: 120px;
+}
+.glimpses{
+    height: 900px;
+    background-color: black;
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+}
+#glimpses1{
+    padding-top:300px;
+    color: white;
+    font-size: 50px;
+    font-family: cursive;
+    padding-left: 150px;
+}
+#activity{
+    box-sizing: border-box;
+display: flex;
+flex-direction: row;
+height: 800px;
+}
+#activity1{
+    width: 490px;
+    padding-left: 150px;
+    padding-top: 70px;
+    font-size: 30px;
+    word-spacing: 7px;
+
+}
+#activity2{
+    padding-left: 100px;
+    padding-top: 150px;
+}
+.apj{
+   box-sizing: border-box;
+display: flex;
+flex-direction: row;
+height: 800px;
+background-color: black; 
+}
+#apj1{
+    width: 600px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 150px;
+    padding-top: 130px;
+    color: white;
+    word-spacing:6px;
+    line-height: 50px;
+}
+#apj2{
+    padding-top: 120px;
+    padding-left: 50px;
+}
+.nation{
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+height: 1180px;
+background-color: black;
+}
+#nation1{
+    box-sizing: border-box;
+display: flex;
+flex-direction: row;
+}
+#serve{
+    padding-left: 150px;
+    padding-top: 120px;
+    font-size: 50px;
+    font-family: cursive;
+    color: white;
+    width: 500px;
+}
+#tyagi{
+    padding-top: 100px;
+    color: white;
+    font-size: 25px;
+    padding-left: 100px;
+    line-height: 40px;
+}
+#nation2{
+    padding-left: 150px;
+    padding-top: 50px;
+    margin-bottom: 0px;
+}
+
+.testimonials{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    height: 1000px;
+}
+#test1{box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    height: 1000px;
+    width: 550px;
+}
+#test1img{
+    width: 400px;
+}
+#test1text{
+    padding: 15px;
+   margin-bottom: 25px;
+    margin: 0px;
+    background-color: black;
+    font-size: 20px;
+    width: 390px;
+    color: white;
+    line-height:40px;
+}
+#test2{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    height: 1000px;
+    width: 550px;
+}
+#tset2img{
+    width: 400px;
+}
+#test2text{
+    padding: 15px;
+    margin: 0px;
+    background-color: black;
+    font-size: 20px;
+    width: 390px;
+    color: white;
+    line-height:40px;
+}
+#test3{
+     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    height: 1000px;
+    width: 550px;
+}
+#test1img{
+    width:400px;
+}
+#test3text{
+padding: 15px;
+    margin: 0px;
+    background-color: black;
+    font-size: 20px;
+    width: 390px;
+    color: white;
+    line-height:40px;
+}
+#footer{
+   
+    height: 650px;
+    background-color: black;
+    color: white;
+    padding-top: 0px;
+}
+#mandate{
+    width: 400px;
 }
