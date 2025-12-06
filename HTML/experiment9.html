@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 9</title>
+    <style>
+       
+        .main{
+            box-sizing: border-box;
+           display: grid;
+           grid-template-columns: repeat(4,1fr);
+           grid-area: auto;
+            border: solid 2px black;
+            background-color: antiquewhite;
+        }
+        #pdt{
+            height: 300px;
+            border: solid black 2px;
+            margin: 20px;
+            background-color: rgb(212, 211, 211);
+            padding-left: 25px;
+            padding-top: 40px;
+        }
+        @media (max-width:1024px){
+            .main{
+            grid-template-columns:  repeat(2,1fr);
+            background-color: aquamarine;
+            }
+        }
+        @media (max-width:700px){
+            .main{
+            grid-template-columns: 1fr;
+            font-size: large;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>      
+    <div class="main">
+        <div id="pdt"><img src="https://cdn.mos.cms.futurecdn.net/yFVTwgKyQ3uuEf4DRx6imK.jpg" width="300px"><br><br><b>Samsung Galaxy S23 5G AI Smartphone <br>(Navy Blue, 8GB, 256GB Storage)<br><br><span style="color: green;">$700</span> <s>$800</s></b><br>
+       <p style="background-color: aqua;  margin: 0px; padding: 0px; width: 300px; text-align: center;">Add to cart</p></div>
+
+        <div id="pdt"><img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6537/6537366_sd.jpg" width="300px"><br><b>Samsung 108 cm (43 inches) Crystal 4K <br>Vista Ultra HD Smart LED TV<br><br><span style="color: green;">$1500</span> <s>$1800</s></b><br><p style="background-color: aqua;  margin: 0px; padding: 0px; width: 300px; text-align: center;">Add to cart</p></div>
+
+        <div id="pdt"><img src="https://cdn.mos.cms.futurecdn.net/k976GJLUC9iNfC5orutNqk.jpg" width="300px" ><br><b>HP 15, 13th Gen Intel Core i3-1315U (12GB DDR4, 512GB SSD) FHD</b><br><br><br><b><span style="color: green;">$1300</span> <s>$1450</s></b><br><p style="background-color: aqua;  margin: 0px; padding: 0px; width: 300px; text-align: center;">Add to cart</p></div>
+
+        <div id="pdt"><img src="https://tse4.mm.bing.net/th/id/OIP.9h53dXqXyhsTw5qnvbNpQgHaE4?pid=Api&P=0&h=180" width="280px"><br><b>Apple 2025 MacBook Air (13-inch, Apple M4 chip with 10-core CPU and 8-core GPU, 16GB, 256GB) - Sky Blue<br><span style="color: green;">$1500</span> <s>$1800</s></b><br><p style="background-color: aqua;  margin: 0px; padding: 0px; width: 300px; text-align: center;">Add to cart</p></div>
+    </div>
+    </main>
+</body>
+</html>
