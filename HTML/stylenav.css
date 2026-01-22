@@ -3,7 +3,19 @@
     height: 50px;
   padding-bottom: 60px;
   color: aliceblue;
-  
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+.II{
+    padding-left: 10px;
+}
+#LIS{
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+
 }
 ul li{
    display: inline;
